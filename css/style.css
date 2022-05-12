@@ -1,0 +1,96 @@
+/* code by : Amirreza Heydari */
+.ff{
+    font-family: 'Playfair Display', serif;
+}
+:root {
+    --whitecolor: #ffffff;
+    --graycolor: #f1f2f2;
+    --darkgraycolor: #636466;
+    --greencolor: #2ac400;
+    --peruplecolor: #5601a4;
+    --blackcolor: #000000;
+    --greenwhite: #07CBC1;
+}
+
+.radius {
+    border-radius: 12px !important;
+}
+
+.whitecolor {
+    color: var(--whitecolor) !important;
+}
+
+.whitecolor-bg {
+    background-color: var(--whitecolor) !important;
+}
+
+.graycolor {
+    color: var(--graycolor) !important;
+}
+
+.graycolor-bg {
+    background-color: var(--graycolor) !important;
+}
+
+.darkgraycolor {
+    color: var(--darkgraycolor) !important;
+}
+
+.darkgraycolor-bg {
+    background-color: var(--darkgraycolor) !important;
+}
+
+.greencolor {
+    color: var(--greencolor) !important;
+}
+
+.greencolor-bg {
+    background-color: var(--greencolor) !important;
+}
+
+.peruplecolor {
+    color: var(--peruplecolor) !important;
+}
+
+.peruplecolor-border {
+    border-color: var(--peruplecolor) !important;
+}
+
+.peruplecolor-bg {
+    background-color: var(--peruplecolor) !important;
+}
+
+.blackcolor {
+    color: var(--backcolor) !important;
+}
+
+.blackcolor-bg {
+    background-color: var(--backcolor) !important;
+}
+.greenwhite{
+    color: var(--greenwhite) !important;
+}
+.greenwhite-bg{
+    background-color: var(--greenwhite) !important;
+}
+.greenwhite-bg-30{
+    background-color: rgba(7, 203, 193, 0.30);
+}
+.border-green-white-bottom{
+    border-bottom: 3px solid #07CBC1 !important;
+}
+.border-vertical::after,
+.border-vertical::before {
+    background-color: var(--graycolor);
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.li-style-dissc{
+    list-style-type: disc !important;
+}
